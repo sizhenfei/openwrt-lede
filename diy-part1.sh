@@ -17,4 +17,5 @@
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/MentoHUST-OpenWrt-ipk
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
+git clone https://github.com/kuoruan/luci-app-v2ray.git package/luci-app-v2ray
 git clone https://github.com/maxlicheng/luci-app-ssr-plus.git package/luci-app-ssr-plus
